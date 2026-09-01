@@ -1,0 +1,51 @@
+name: Sync AdBlock Subscriptions
+
+# 每天 UTC 18:00（北京时间 02:00）自动同步一次；也可在 Actions 页面手动 Run workflow。
+on:
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download subscriptions
+        run: |
+          set -uo pipefail
+          mkdir -p filters
+          download() {
+            local out="$1"; local url="$2"
+            echo "::group::Download $out"
+            if curl -fsSL --retry 3 --retry-delay 5 --max-time 180 "$url" -o "filters/$out.tmp"; then
+              mv "filters/$out.tmp" "filters/$out"
+              echo "OK  $(wc -l < "filters/$out") lines"
+            else
+              echo "::warning::Failed to download $out, keeping previous version (if any)"
+              rm -f "filters/$out.tmp"
+            fi
+            echo "::endgroup::"
+          }
+          download easylist.txt        "https://easylist.to/easylist/easylist.txt"
+          download easylistchina.txt   "https://easylist-downloads.adblockplus.org/easylistchina.txt"
+          download easyprivacy.txt     "https://easylist.to/easylist/easyprivacy.txt"
+          download adguard_base.txt    "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt"
+          download adguard_chinese.txt "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt"
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add filters/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
