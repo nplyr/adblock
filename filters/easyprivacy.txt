@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609102010
+! Version: 202609112012
 ! Title: EasyPrivacy
-! Last modified: 10 Sep 2026 20:10 UTC
+! Last modified: 11 Sep 2026 20:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 888eb823633a45e0b56807c0d3e2dfcf3e2b1c9d
+! Commit: 6ebd0f12bc0b99f4cea658ede4f78c5d55a75399
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6890,6 +6890,7 @@ omni.soundestlink.com$image
 ||bigpicframing.com^
 ||bigwetbrush.com^
 ||bigworldfashion.com^
+||bijouxbee.com^
 ||bikeexerciser.com^
 ||bikepaws.com^
 ||bikesboard.com^
@@ -6901,6 +6902,7 @@ omni.soundestlink.com$image
 ||binarykite.com^
 ||binspiredtees.com^
 ||biologylog.com^
+||biotechnologysciences.com^
 ||birthdaybelief.com^
 ||biscuitbox.net^
 ||biztoolsbrief.com^
@@ -6915,6 +6917,8 @@ omni.soundestlink.com$image
 ||blitzcampaigns.com^
 ||blockdial.com^
 ||bloomsend.com^
+||bluebellbooks.com^
+||bluebirdteam.com^
 ||bluecollarmuse.com^
 ||blueeyedblow.com^
 ||bluelionlabs.net^
@@ -6965,6 +6969,7 @@ omni.soundestlink.com$image
 ||broadborder.com^
 ||broadcastbed.com^
 ||broaddoor.com^
+||broflask.com^
 ||brotherslocket.com^
 ||brownboxgroup.com^
 ||browndogmanor.com^
@@ -10084,6 +10089,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Portuguese
 ||ad5track.com^$third-party
 ||afilio.com.br^$third-party
+||atendimen.to^$third-party
 ||bob-recs.com^$third-party
 ||btg360.com.br^$third-party
 ||clearsale.com.br^$third-party
@@ -14716,6 +14722,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ndmais.com.br/tracking-parceiros-ndmais/
 ||netdeal.com.br/open/event/
 ||neurotrack.neurolake.io^
+||osuper.com.br/beta/bundles/analytics/analytics-$script
 ||pageviews.tray.com.br^
 ||pixel.leadlovers.app^
 ||sat.soluall.net^
@@ -55137,6 +55144,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 ||tuttocagliari.net/pixel
 ||tuttogratis.it/gopix.php?
 ||tuttomercatoweb.com/pixel
+||vannacci.gay/~flock.js
 ||video.mediaset.it/polymediashowanalytics/
 ||videogame.it/a/logview/
 ||vinted.it/relay/events
