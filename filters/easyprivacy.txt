@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610022135
+! Version: 202610032016
 ! Title: EasyPrivacy
-! Last modified: 02 Oct 2026 21:35 UTC
+! Last modified: 03 Oct 2026 20:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5a98bbea7980df45a87d44b77c35dab745d43b66
+! Commit: 354a5a18dabb848902e481177c99d5e4e2610019
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3512,6 +3512,7 @@ omni.soundestlink.com$image
 ||aisiteanalytics.com^
 ||allvideometrika.com^
 ||altopd.com^
+||amspbs.com^
 ||analys.live^
 ||analysis.fi^
 ||analyt.ir^
@@ -3558,6 +3559,7 @@ omni.soundestlink.com$image
 ||cafirebreather.com^
 ||cbdatatracker.com^
 ||cdjbf8trk.com^
+||cdn-vitals.com^
 ||cdn.sy-d.io^
 ||cdnhst.xyz^
 ||cdnlogs.org^
@@ -3644,6 +3646,7 @@ omni.soundestlink.com$image
 ||featuregates.org^
 ||ffbbbdc6d3c353211fe2ba39c9f744cd.com^
 ||ffe390afd658c19dcbf707e0597b846d.de^
+||floors.dev^
 ||fn-pz.com^
 ||fourtimessmelly.com^
 ||fpapi.io^
@@ -3654,6 +3657,7 @@ omni.soundestlink.com$image
 ||fptls3.com^
 ||fptls4.com^
 ||fran.pro^
+||fsrv.io^
 ||ftlaunchpad.ai^
 ||funnelserv.systems^
 ||fzlnk.com^
@@ -4970,6 +4974,7 @@ omni.soundestlink.com$image
 ||hadronid.net^$third-party
 ||halldata.com^$third-party
 ||haloscan.com^$third-party
+||happierleads.com^$third-party
 ||havasedge.com^$third-party
 ||haveamint.com^$third-party
 ||heapanalytics.com^$third-party
@@ -5585,6 +5590,7 @@ omni.soundestlink.com$image
 ||pa-oa.com^$third-party
 ||pabidding.io^$third-party
 ||pagefair.com^$third-party
+||pagemetry.com^$third-party
 ||pages05.net^$third-party
 ||pagesense.io^$third-party
 ||pageview.click^$third-party
@@ -8964,6 +8970,7 @@ omni.soundestlink.com$image
 ||tangibleteam.com^
 ||tangyamount.com^
 ||tangycover.com^
+||tapoutmusic.com^
 ||taskdelight.com^
 ||tasselapp.com^
 ||tastelesstrees.com^
@@ -15114,6 +15121,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Turkish
 ||0.myikas.com^
 ||analitik.bik.gov.tr^
+||analytic.is^
 ||analytics.cdnstr.com^$third-party
 ||analytics.faprika.net^
 ||analytics.kkb.com.tr^
