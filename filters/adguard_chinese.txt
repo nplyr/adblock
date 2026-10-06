@@ -1359,6 +1359,7 @@ $script,xmlhttprequest,third-party,domain=00ksw.com|01zww.com|0biquge.com|114zw.
 !
 ! NOTE: Specific rules
 !
+gh-proxy.com##section.z-10 > div.w-full:has(> a[rel*="sponsored"])
 global.hk01.com#$#div[class^="placeholder-ad-"] { min-height: 0 !important; }
 global.hk01.com##div[class*="_.js-ad-slot]"]
 global.hk01.com##.cmp-article-detail > .flex:has(> .lazyload-wrapper > div:is(.js-ad-slot, [data-id="lazyload-placeholder"]))
@@ -5769,6 +5770,18 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||6y10di5jko.com^
+||tightrope23.com^
+||zhzrvjmyqvdhrc.com^
+||gcqgmgq.com^
+||wkduza2x10.com^
+||j3ossmqgmc.com^
+||xtorbk1g3f.com^
+||3ylj411rdn.com^
+||0cvo4ebbpk.com^
+||bpucmkg.com^
+||ehcecws.com^
+||su4wxsrtku.com^
 ||dishwasher46.com^
 ||8hvq8jskh.com^
 ||bedwlzqwkxpzfc.com^
