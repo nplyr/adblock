@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610102053
+! Version: 202610112113
 ! Title: EasyPrivacy
-! Last modified: 10 Oct 2026 20:53 UTC
+! Last modified: 11 Oct 2026 21:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a3e69297396840dcdda1bcf9569b7007beeb71d3
+! Commit: 0aaf4257e8b831bb390bb605b7c6220479dbdca2
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7153,6 +7153,7 @@ omni.soundestlink.com$image
 ||coastersim.com^
 ||coatfood.com^
 ||cobaltoverture.com^
+||cockatielcafe.com^
 ||cocoacafes.com^
 ||coddledcats.com^
 ||codingunlocked.com^
@@ -7245,6 +7246,7 @@ omni.soundestlink.com$image
 ||critictruck.com^
 ||crochetdivas.com^
 ||crookedcreature.com^
+||crossseasent.com^
 ||crowdedmass.com^
 ||cruisetourist.com^
 ||crunchcontrol.com^
@@ -7298,6 +7300,7 @@ omni.soundestlink.com$image
 ||daybreaklights.com^
 ||dazzlescript.com^
 ||dazzlingbook.com^
+||dblarson.com^
 ||dealchocolate.com^
 ||debonairdust.com^
 ||debonairtree.com^
@@ -56635,6 +56638,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||curiositystream.com.first-party-js.datadome.co^$script,domain=curiositystream.com
 @@||datadome.garena.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=auth.garena.com
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.goflink.com.first-party-js.datadome.co^$domain=goflink.com
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
